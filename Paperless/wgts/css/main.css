@@ -1,0 +1,120 @@
+﻿@charset "UTF-8";
+.bg-e5 {
+  background: #E5E5E5;
+}
+
+.bdrds10-hmc {
+  -webkit-border-radius: 0.26667rem;
+  -moz-border-radius: 0.26667rem;
+  border-radius: 0.26667rem;
+}
+
+.w140 {
+  width: 3.73333rem;
+}
+
+.icon-hi {
+  display: block;
+  background-position: center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-leye-open {
+  background-image: url("../images/icon-leye-open.png");
+  width: 1.06667rem;
+  height: 0.74667rem;
+}
+
+.icon-leye-close {
+  background-image: url("../images/icon-leye-close.png");
+  width: 1.06667rem;
+  height: 0.74667rem;
+}
+.icon-leye-close.active {
+  background-image: url("../images/icon-leye-open.png");
+}
+
+.icon-lphone {
+  background-image: url("../images/icon-lphone.png");
+  width: 0.69333rem;
+  height: 0.74667rem;
+}
+
+.icon-laffirm {
+  background-image: url("../images/icon-laffirm.png");
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+.icon-lcancel {
+  background-image: url("../images/icon-lcancel.png");
+  width: 0.64rem;
+  height: 0.64rem;
+}
+
+.lexus-comm-list li {
+  background: #FFFFFF;
+  margin-bottom: 0.8rem;
+  -webkit-border-radius: 0.26667rem;
+  -moz-border-radius: 0.26667rem;
+  border-radius: 0.26667rem;
+}
+
+.article-pure-txt {
+  height: 18rem;
+  overflow: auto;
+  padding: 0.53333rem !important;
+}
+.article-pure-txt h2,
+.article-pure-txt h3,
+.article-pure-txt h4,
+.article-pure-txt h5,
+.article-pure-txt h6,
+.article-pure-txt p {
+  font-size: 0.64rem !important;
+  color: #666 !important;
+  line-height: 1.06667rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.input-checkbox-hmc {
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.input-checkbox-hmc input {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin: 0;
+}
+.input-checkbox-hmc input:checked {
+  background: #888888 url("../images/icon-licheked.png") no-repeat center;
+  background-size: cover;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-family: "Lantinghei SC", "Microsoft YaHei", "微软雅黑", SimSun, Arial;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  line-height: normal;
+}
+
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 0.85333rem;
+  background: #F3F3F3;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+}
